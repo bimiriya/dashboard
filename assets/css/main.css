@@ -1,0 +1,27 @@
+#sidenav {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+
+#sidenav .user {
+  height: 4em;
+}
+
+#sidenav .user img {
+  height: 3em;
+}
+
+#contents {
+  position: absolute;
+  right: 0;
+  min-height: 100vh;
+}
+
+#contents footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
